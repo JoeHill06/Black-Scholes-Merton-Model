@@ -2,4 +2,6 @@ import yfinance as yf
 
 dat = yf.Ticker("MSFT")
 
-print(dat.fast_info)
+dates = dat.calendar
+for date in dates:
+    print(date, dates[date])
