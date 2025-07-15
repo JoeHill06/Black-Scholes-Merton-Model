@@ -23,5 +23,5 @@ class Company(yf.Ticker):
         super().__init__(ticker, session, proxy)
 
 
-Apple = Company("APPl")
+Apple = Company("AAPl")
 print(Apple.news)
